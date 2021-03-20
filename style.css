@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+}
+
+.innerwierd {
+    border-radius: 50%;
+}
+
+#Welcome {
+    position: absolute;
+    height: 800px;
+    color: chartreuse;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#e8130c 0%, #e6e610 100%);
+    display: table;
+    z-index: 79;
+}
+
+.outerweird {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#bio {
+    text-align: center;
+    padding: 50px;
+}
+
+.line {
+    width: 79px;
+    height: 3px;
+    background-color: aqua;
+    margin: 8px auto;
+}
+
+.weirdmenu {
+    list-style: none;
+    cursor: pointer;
+    z-index: 99;
+    position: absolute;
+    top: 10px;
+    right: 39px;
+}
+
+.list {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.list:hover{background-color:blue;}
+.79:hover{color:Red;}
+html{scroll-behavior: smooth;}
